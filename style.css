@@ -1,21 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@300&display=swap');
+
 body{
     background-color: #1F2937;
-    padding: 0 15%;
+    margin: 0;
 }
 
 nav{
-    padding: 10px 0;
+    padding: 20px 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav #logo{
     color: #F9FAF8;
+    font-size: 38px;
+    font-family: 'Hammersmith One';
 }
 
 nav .nav-links a{
-    margin-left: 10px;
+    font-family: 'Roboto';
+    margin-left: 15px;
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 24px;
+}
+
+.showcase{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 0 15%;
+}
+
+
+.showcase .showcase-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.showcase .showcase-txt .sc-title{
+    font-family: 'Hammersmith One';
+    color: #F9FAF8;
+    font-size: 70px;
+    margin-top: 85px;
+}
+
+.showcase .showcase-txt .sc-p{
+    font-size: 22px;
+    color: #E5E7EB;
+    font-family: 'Roboto';
+}
+
+.showcase .showcase-txt button{
+    margin: 15px 0;
+    width: 155px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 7px;
+    background-color: #3882F6;
+    border: 0;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*
+.showcase .showcase-img .box{
+    background-color: darkgray;
+    height: 200px;
+}
+*/
+
+.squares{
+    height: 700px;
+    background-color: #F9FAF8;
+    padding: 0 15%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.squares .sq-txt{
+    text-align: center;
+    font-family: 'Hammersmith One';
+    font-size: 50px;
+    color: #1F2937;
+    margin: 60px 0 40px 0;
+    font-weight: bold;
+    word-spacing: 0.05em;
+}
+
+.squares .deck{
+    display: flex;
+    flex-direction: row;
+}
+
+.squares .deck .st{
+    margin: 0 30px;
+    font-size: 26px;
+    color: #1F2937;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.squares .deck .square{
+    border: 5px #3882F6 solid;
+    border-radius: 25px;
+    margin: 25px 45px;
+    height: 240px;
+
+}
+.thor{
+    padding: 0 15%;
+    height: 500px;
+    background-color: #E5E7EB;
+}
+
+.thor .body{
+    display: flex;
+    flex-direction: column;
+}
+.thor .body .up{
+    margin: 100px 65px 0 65px;
+    font-family: 'Roboto';
+    font: 100;
+    font-style: italic;
+    font-size: 50px;
+    color: #1F2937;
+}
+
+.thor .body .down{
+    text-align: right;
+    font-family: 'Hammersmith One';
+    color: #1F2937;
+    font-size: 35px;
+    margin-right: 130px;
+}
+
+.c2a{
+    height: 500px;
+    background-color: #F9FAF8;
+    display: flex;
+    padding: 0 15%;
+    align-items: center;
+}
+
+.c2a .tab{
+    height: 220px;
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 0 50px;
 }
