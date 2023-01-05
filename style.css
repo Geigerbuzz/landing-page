@@ -154,9 +154,54 @@ nav .nav-links a{
 }
 
 .c2a .tab{
-    height: 220px;
+    height: 190px;
     width: 100%;
     background-color: #3882F6;
+    border-radius: 25px;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c2a .tab .tab-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c2a .tab .tab-txt .ump{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #E5E7EB;
+    font-size: 35px;
+}
+
+.c2a .tab .tab-txt .dmp{
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #E5E7EB;
+}
+
+.c2a .tab .btn2{
+    width: 20%;
+    height: 30%;
+    font-size: 23px;
+    border: 5px #F9FAF8 solid;
+    background-color: #3882F6;
     border-radius: 15px;
-    padding: 0 50px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.ftr{
+    height: 100px;
+    text-align: center;
+    color: #F9FAF8;
+    font-family: 'Roboto';
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
